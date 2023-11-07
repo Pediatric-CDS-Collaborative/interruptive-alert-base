@@ -1,7 +1,7 @@
 -- set dates for evaluation period
 declare
-       @FromDt       date = convert(date, '2021-07-01'), -- start date 
-       @ToDt date = convert(date,'2022-06-30') -- end date
+       @FromDt       date = convert(date, '2022-07-01'), -- start date 
+       @ToDt date = convert(date,'2023-06-30') -- end date
 
 select 
 	max('SITE_NAME') as SITE
